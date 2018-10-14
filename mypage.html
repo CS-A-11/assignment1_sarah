@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Sarah's Turf</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <style>
+        body{
+            background-image: url(http://qiniu.shijuewuyu.com/spotlight/bc7a3428e673f7209f417e229f9e7379faaf41b4253fdfd8fdaf6d74f2d944cc.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        header{
+            height:100px;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            color: #e6e6e6;
+            text-align:center;
+            font-size: 36px;
+            font-family: 'Copperplate Gothic';
+            letter-spacing: 2px;
+            padding: 20px 0 20px 0;
+            /*top right bottom left*/
+            background-image: linear-gradient(to bottom right, #1a1a1a, #262626);
+            position: fixed;
+            z-index: 2;
+        }
+        table, th, td{
+             width: 50%; 
+             align-self:center; 
+             border: 1px solid #e6e6e6;
+        }
+        .greeter{
+            text-align: left;
+            opacity: 0.2;
+            margin-left: -120px;
+            margin-top: -20px;
+        }
+        .greeter:hover{
+            opacity: 1;
+            margin-left: -120px;
+            margin-top: -20px;
+        }
+        .textbox{
+            border-radius: 10px;
+            margin: 50px 100px 200px 100px;
+            /*top right bottom left*/
+        }
+        .text{
+            color: #e6e6e6;
+            text-align:justify;
+            padding: 20px 20px 20px 20px;
+            opacity: 1;
+        }
+        .button {
+            padding: 15px 25px;
+            font-size: 24px;
+            text-align: center;
+            cursor: pointer;
+            outline: none;
+            color: #e6e6e6;
+            background-color: #0077b3;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #4d4d4d;
+            opacity:1;
+            align-items:center;
+        }
+        .button:hover {
+            background-color: #005580;
+        }
+        .button:active {
+            background-color: #00334d;
+            box-shadow: 0 5px #333333;
+            transform: translateY(4px);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="row">
+            <div class="col-sm-3">
+                <a href="#">
+                    <img class="greeter" alt="" src="https://66.media.tumblr.com/062e6477c3f83e8e8806f244948e2191/tumblr_pg5481Utl41rs674to1_540.png" height=90 width=100>
+                </a>
+            </div>
+            <div class="col-sm-6">Welcome to My Page</div>
+            <div class="col-sm-3"></div>
+        </div>
+    </header>
+    <p>
+        <br /><br /><br />
+        <div class="container textbox" style="background-color:black; opacity:0.6;">
+            <div class="text">
+                <h1 style="text-align:center; color:#66ccff; opacity:1;">Hello and Welcome</h1>
+                <br />
+                This is my very own page. I am Sarah Tahir Bokhari (15L-4093) a student of BSCS Batch 2015, currently enrolled in Web Programming. 
+                This is my first assignment for this course. I am a little late in submitting it, as I was enrolled in class almost 4 weeks late.
+                But here is what I've done so far.
+
+                <br /><br /><br />
+
+                I have a bunch of hobbies including, but not limited to:
+                <br />
+                <ul>
+                    <li>Art</li>
+                    <li>Reading</li>
+                    <li>Listening to Music</li>
+                    <li>Gaming</li>
+                </ul>
+
+                <br />
+
+                If you asked me to choose my 3 favourite movies off the top of my head, 
+                I'd tell you that the list was too vast to be condensed into 3 items.. But I'd try anyway:
+                <ol type="1">
+                    <li>The Lion King</li>
+                    <li>Star Wars</li>
+                    <li>The Boy in the Striped Pyjamas</li>
+                </ol>
+
+                <br />
+
+                The following table lists some countries around the world, as well as their capital cities:
+                <br /><br />
+                <table>
+                    <tr>
+                        <th>Country</th>
+                        <th>Capital</th>
+                    </tr>
+                    <tr>
+                        <td>Poland</td>
+                        <td>Warsaw</td>
+                    </tr>
+                    <tr>
+                        <td>Liberia</td>
+                        <td>Monrovia</td>
+                    </tr>
+                    <tr>
+                        <td>Bhutan</td>
+                        <td>Thimphu</td>
+                    </tr>
+                    <tr>
+                        <td>Trinidad</td>
+                        <td>Port of Spain</td>
+                    </tr>
+                    <tr>
+                        <td>Canada</td>
+                        <td>Toronto</td>
+                    </tr>
+                </table>
+
+                <br /><br />
+                <button class="button">Fun Button!</button>
+            </div>
+        </div>
+    </p>
+    <script>
+        //$("https://66.media.tumblr.com/062e6477c3f83e8e8806f244948e2191/tumblr_pg5481Utl41rs674to1_540.png").mouseenter(function () {
+        //    $(this).attr('src', '@Url.Content("https://66.media.tumblr.com/f437ff3afe95558de93c9ba85d2a1f7d/tumblr_pg5481Utl41rs674to2_1280.png")');
+        //});
+        $(function () {
+            $(".greeter").on({
+                mouseenter: function () {
+                    $(this).attr('src', 'https://66.media.tumblr.com/f437ff3afe95558de93c9ba85d2a1f7d/tumblr_pg5481Utl41rs674to2_1280.png');
+                },
+                mouseleave: function () {
+                    $(this).attr('src', 'https://66.media.tumblr.com/062e6477c3f83e8e8806f244948e2191/tumblr_pg5481Utl41rs674to1_540.png');
+                }
+            });
+
+        });
+    </script>
+</body>
+</html>
