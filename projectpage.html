@@ -1,0 +1,232 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Page</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <style>
+        body{
+            background-image: url(https://img.wallpapersafari.com/desktop/1366/768/57/6/ajCgez.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        header{
+            height:100px;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            color: #e6e6e6;
+            text-align:center;
+            font-family: 'Copperplate Gothic';
+            text-shadow: 2px 5px 12px #000000;
+            /*right down dispersion black*/
+            letter-spacing: 2px;
+            padding: 20px 0 20px 0;
+            /*top right bottom left*/
+            background-image: linear-gradient(to bottom right, #4d0099, #26004d);
+            position: sticky;
+            z-index: 2;
+        }
+        footer{
+            height: 50px;
+            width: auto;
+            bottom:0;
+            background-image: linear-gradient(to bottom right, #26004d, #4d0099);
+            position: sticky;
+            z-index: 2;
+        }
+        img{
+            max-width: 250px;
+            max-height: 250px;
+        }
+        table, th, td{
+             width: 50%; 
+             align-self:center; 
+             border: 1px solid #e6e6e6;
+        }
+        .textbox{
+            border-radius: 10px;
+            margin: 30px 100px 50px 100px;
+            /*top right bottom left*/
+        }
+        .text{
+            color: #e6e6e6;
+            text-align:justify;
+            padding: 20px 20px 20px 20px;
+            opacity: 1;
+        }
+        .grid{
+            display:flex;
+            margin: 20px;
+            justify-content:space-between;
+        }
+        .button {
+            padding: 15px 25px;
+            font-size: 24px;
+            font-family:'Lucida Handwriting';
+            text-align: center;
+            cursor: pointer;
+            outline: none;
+            color: aqua;
+            background-color: #8800cc;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #4d4d4d;
+            opacity:1;
+            align-items:center;
+        }
+        .button:hover {
+            background-color: #660099;
+        }
+        .button:active {
+            background-color: #440066;
+            box-shadow: 0 5px #333333;
+            transform: translateY(4px);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Assignment 2: Project Page</h1>
+    </header>
+    <br />
+    <div class="container textbox" style="background-color:#1a0033; opacity:0.99;">
+        <div class="text">
+            <br />
+            This is a simple bootstrap grid:
+            <br />
+            <div class="row">
+                <div class="col-sm-4">
+                    <img alt="meme1.jpg" src="https://lh4.googleusercontent.com/0juv0MPmwMRYhplHlJLlpNB-evf08fdbKrYXcMvpeKaFWCnYQlOoomYEs1vtCaU6UXD09hT_IIYrjvKrSsyZFP3dpeh2TdeF0vi2wjaixLV2wzgQhDR9JGrGKlbYfDS_LSqTF55P" />
+                </div>
+                <div class="col-sm-4">
+                    <img alt="meme2.jpg" src="https://i.pinimg.com/originals/39/a5/ad/39a5ad60d07cdbef0396504c4cf43246.jpg" />
+                </div>
+                <div class="col-sm-4">
+                    <img alt="meme3.jpg" src="https://lh6.googleusercontent.com/CyuzC7qZvqa-AtT4Z0BlKhiWY5KY4FY0IHdrzZdYy1YYpvSaHrB5gdqki0UCqkXBAIz7rlWQi8_0P3ZkHuw3gSUR6bue7CaFh-LHTmi8MlXOaSIV3Hw89zJUzMCxsbxgAT-tqvAX" />
+                </div>
+            </div>
+            <br /><br />
+
+            This is a simple bootstrap grid with flexbox:
+            <br />
+            <div class="row grid">
+                <div class="col-sm-4">
+                    <img alt="meme1.jpg" src="https://i.pinimg.com/originals/20/a5/f7/20a5f74c8d7de005055c8f68c1b65080.jpg" />
+                </div>
+                <div class="col-sm-4">
+                    <img alt="meme2.jpg" src="http://devhumor.com/content/uploads/images/September2018/sleep.png" />
+                </div>
+                <div class="col-sm-4">
+                    <img alt="meme3.jpg" src="https://scontent.flhe9-1.fna.fbcdn.net/v/t1.0-9/29067273_557012648005196_821969176756534209_n.jpg?_nc_cat=107&oh=7ab41f9bed52c2cccf556068f03fe369&oe=5C5BD6C4" />
+                </div>
+            </div>
+            <br /><br />
+
+            This is the same grid with only flexbox handling the column separations:
+            <br />
+            <div class="row grid">
+                <img alt="meme1.jpg" src="https://i.pinimg.com/originals/20/a5/f7/20a5f74c8d7de005055c8f68c1b65080.jpg" />
+                <img alt="meme2.jpg" src="http://devhumor.com/content/uploads/images/September2018/sleep.png" />
+                <img alt="meme3.jpg" src="https://scontent.flhe9-1.fna.fbcdn.net/v/t1.0-9/29067273_557012648005196_821969176756534209_n.jpg?_nc_cat=107&oh=7ab41f9bed52c2cccf556068f03fe369&oe=5C5BD6C4" />
+            </div>
+            <br /><br />
+
+            Hover to open portal:
+            <br />
+            <img id="greeter" alt="" src="https://ubisafe.org/images1280_/circle-transparent-pastel-6.png" height=300 width=300>
+            <br /><br /><br /><br /><br />
+
+
+            <img alt="" src="http://carbonclothing.net/wp-content/uploads/2012/06/dexters-laboratory-what-does-that-button-do.gif" height=138 width=193>
+            &nbsp;
+            <button class="button" id="testbtn">
+                Press me!
+            </button>
+            <br /><br />
+            
+            This is a simple table with an extra entry in the bottom row:
+            <br />
+            <table>
+                <tr>
+                    <th>Colour Code</th>
+                    <th>Is this purple?</th>
+                </tr>
+                <tr>
+                    <td style="border:2px solid #600080;">#600080</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td style="border:2px solid #3d004d;">#3d004d</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td style="border:2px solid #33cc33;">#33cc33</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td style="border:2px solid #999900;">#999900</td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td style="border:2px solid #ffffff;">#000000</td>
+                    <td>No</td>
+                    <td>But white <i>contains</i> purple.</td>
+                </tr>
+            </table>
+            <br /><br />
+            
+            When I hear the word 'GPU', a few other words come to mind:
+            <br />
+            <ul type="1">
+                <li>Nvidia</li>
+                <li>AMD</li>
+                and, of course, the ever famous, but often taken for granted..
+                <li>Intel</li>
+            </ul>
+            <br /><br />
+
+            Bool/Boolean variables can only have two possible values:
+            <br />
+            <ol type="1">
+                <li>Yes (1)</li>
+                <li>No (0)</li>
+            </ol>
+            <br /><br />
+        </div>
+    </div>
+        <br />
+    <footer>
+    </footer>
+
+    <script>
+
+        var testb = document.getElementById('testbtn');
+
+        testb.onclick = function () {
+            //WriteLine("This is the Admin's name:");
+            window.alert('Button Pressed!');
+            console.log("Button was pressed");
+        };
+
+        $(function () {
+            $("#greeter").on({
+                mouseenter: function () {
+                    $(this).attr('src', 'https://ubisafe.org/images1280_/circle-transparent-pastel-5.png');
+                },
+                mouseleave: function () {
+                    $(this).attr('src', 'https://ubisafe.org/images1280_/circle-transparent-pastel-6.png');
+                }
+            });
+
+        });
+    </script>
+</body>
+</html>
