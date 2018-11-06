@@ -7,4 +7,4 @@ Link to Project site: https://sarahtb.github.io/assignment2_sarah/
 
 Link to Project site on Heroku: http://assignment1-sarahtb.herokuapp.com/index.html
 
-Link to updated Personal site/cv: http://assignment0-sarahtb.herokuapp.com/index.html
+Link to updated Personal site/cv: http://assignment0-sarahtb.herokuapp.com/mycv.html
